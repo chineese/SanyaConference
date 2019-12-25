@@ -12,7 +12,7 @@ function checkEmpData()
 {
   var a =0;
   return confirm("Registered");
-  document.getElementById("mtForm").reset();
+  window.location.href = "registerForm.html";
 
 }
 
