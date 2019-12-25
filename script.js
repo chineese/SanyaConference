@@ -12,7 +12,7 @@ function checkEmpData()
 {
   var a =0;
   return confirm("Registered");
-  window.location = "register.html";
+  document.getElementById("myForm").reset();
 
 }
 
