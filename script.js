@@ -12,7 +12,7 @@ function checkEmpData()
 {
   var a =0;
   return confirm("Registered");
-  window.location.href = "registerForm.html";
+  window.location.href = 'registerForm.html';
 
 }
 
